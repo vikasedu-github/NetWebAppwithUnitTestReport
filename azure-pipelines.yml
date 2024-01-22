@@ -32,7 +32,7 @@ steps:
     SonarCloud: 'sonarcloud'
     organization: 'dev-windows'
     scannerMode: 'MSBuild'
-    projectKey: 'dev-windows'
+    projectKey: 'Windows'
     projectName: 'Windows'
 
 - task: SonarCloudAnalyze@1
