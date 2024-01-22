@@ -28,8 +28,6 @@ steps:
     projectKey: 'Windows'
     projectName: 'Windows'
 
-- task: SonarCloudAnalyze@1
-
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
@@ -37,7 +35,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-
+- task: SonarCloudAnalyze@1
 
 - task: VSTest@2
   inputs:
