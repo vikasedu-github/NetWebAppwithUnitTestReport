@@ -27,19 +27,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: SonarCloudPrepare@1
-  inputs:
-    SonarCloud: 'sonarcloud'
-    organization: 'dev-windows'
-    scannerMode: 'MSBuild'
-    projectKey: 'Windows'
-    projectName: 'Windows'
 
-- task: SonarCloudAnalyze@1
-
-- task: SonarCloudPublish@1
-  inputs:
-    pollingTimeoutSec: '300'
 
 - task: VSTest@2
   inputs:
