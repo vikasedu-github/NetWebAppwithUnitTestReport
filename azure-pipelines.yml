@@ -29,7 +29,8 @@ steps:
     projectName: 'Windows'
 
 - task: SonarCloudAnalyze@1
-
+  inputs:
+    jdkversion: 'JAVA_HOME_17_X64'
 
 - task: VSBuild@1
   inputs:
