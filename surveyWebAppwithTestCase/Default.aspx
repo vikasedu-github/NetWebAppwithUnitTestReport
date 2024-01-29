@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>CodBucket</h1>
+        <h1>CodBucket.v1</h1>
         <p class="lead">Learn, Contribute & Earn.</p>
         <p><a href="https://www.codbucket.com" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
